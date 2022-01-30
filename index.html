@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
+    <!-- <link type="text/css" rel="stylesheet" href="/css/main.css"> -->
     <title>starter</title>
 </head>
 <body>
-    
+    <div class="ListItem">
+        <ul>
+            <li>The more</li>
+            <li><del>They</del>The less</li>
+        </ul>
+        <a href="#!" onclick="myFunction(); return false;">Run Code</a>
+        <div class="content">
+            <form>
+                <input type="text" name="name" required>
+                <input type="email" name="email" required>
+                <input pattern="\d*" name="number" required>
+                <input type="submit" value="Publish"> <!-- form will be validated -->
+                <input type="submit" value="Save" formnovalidate> <!-- form will NOT be validated -->
+                </form>
+        </div>
+        <div class="footer">
+            <section>
+                <!-- Each individual blog post is an <article> -->
+                <article>
+                <header>
+                <h1>Blog Post</h1>
+                <time datetime="2016-03-13">13th March 2016</time>
+                </header>
+                <p>The article element represents a self contained article or document.</p>
+                <p>The section element represents a grouping of content.</p>
+                <section>
+        </div>
+    </div>
+<script src="/js/main.js"></script>
 </body>
 </html>
