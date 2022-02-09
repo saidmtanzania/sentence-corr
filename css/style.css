@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     text-align: center;
@@ -27,7 +27,7 @@ h1{
     padding-left: 5px;
 }
 .display-box{
-    
+    width: 500px;
 }
 section,input{
     font-size: 20px;
@@ -60,4 +60,9 @@ button:active{
     position: absolute;
     top: 447px;
     text-align: center;
+}
+.text-box{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
 }
